@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because he was outstanding in his field!"
+  },
+  {
+    "id": 2,
+    "setup": "Why don’t skeletons fight each other?",
+    "punchline": "They don’t have the guts."
+  },
+  {
+    "id": 3,
+    "setup": "What do you call fake spaghetti?",
+    "punchline": "An impasta!"
+  }
+]
