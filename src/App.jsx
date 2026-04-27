@@ -7,6 +7,7 @@ import FruitSlicerGame from './components/FruitSlicerGame.jsx'
 import ClaudeRecipe from './components/claudeRecipe.jsx'
 import { AuthProvider } from './contexts/AuthContext.jsx'
 import { supabase } from './supabase.js'
+import foodIcon from './assets/food-serving.png'
 
 // ─── Shared recipe view (public URL: /?recipe=<id>) ──────────────────────────
 function SharedView({ recipeId }) {
@@ -33,7 +34,7 @@ function SharedView({ recipeId }) {
             <div className="app-container">
                 <header>
                     <div className="header-brand">
-                        <img src="src/assets/food-serving.png" alt="Chef Icon" />
+                        <img src={foodIcon} alt="Chef Icon" />
                         <h1>Chef Claude</h1>
                     </div>
                     <a href="/" className="auth-btn auth-btn--signin shared-cta">
